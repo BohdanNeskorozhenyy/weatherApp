@@ -1,14 +1,13 @@
 {
   "expo": {
-    "name": "my-app",
+    "name": "Neskor's weather",
     "slug": "my-app",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/weather-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#2b5876"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +16,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bogdannes.myapp"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+        "backgroundColor": "#2b5876"
+      },
+      "package": "com.bogdannes.myapp",
+      "versionCode": 1
     }
   }
 }
